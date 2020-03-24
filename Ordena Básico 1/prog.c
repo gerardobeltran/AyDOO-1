@@ -15,18 +15,19 @@ void ordenar(int datos[], int tam ){
 
 }
 int main() {
-  int i;
-  int  x[5]={16, 5, 3, 1, 8};
-  int  y[6]={ 3, 7, 1, 3, 4, 8};
+  int N, i;
 
-  ordenar(x, 5);
-  for (i=0; i<5; i++ )
-    printf("%d ", x[i]);
-  printf("\n");
+  scanf("%d", &N); // lectura del tamaño de arreglo
 
-  ordenar(y, 6);
-  for (i=0; i<6; i++ )
-    printf("%d ", y[i]);
-  printf("\n");
+  int datos[N]; // crear el arreglo
+
+  for (i=0; i<N; i++) // lectora de los datos del arreglo
+    scanf("%d", &datos[i]);
+
+   ordenar(datos, N);   // llamada a la funcion de ordenacion
+
+   for (i=0; i<N; i++) // salida de los datos ordenados
+      printf("%d\n", datos[i]);
+
   return 0;
 }
