@@ -19,7 +19,7 @@ for (i=0; i<tam && enc==-1 && parar==0 ; i++){
       parar=1;
     }
 }
-
+fff
 return enc;
 }
 
