@@ -8,7 +8,7 @@ int main() {
 
   t = M * N;
 
-  scanf ("%d", &may);
+  scanf ("%d", &may );
 
   for (i=1; i < t; i++)
   {
