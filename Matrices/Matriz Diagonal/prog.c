@@ -19,7 +19,7 @@ for (i=1; i<N enc == 1; i++)
   }
 }
 
-if (enc ==1 )
+if (enc == 1 )
   printf ("SI");
 else
   printf ("NO");
