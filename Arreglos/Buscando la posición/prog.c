@@ -1,5 +1,9 @@
 #include <stdio.h>
+<<<<<<< HEAD
 // comentarios
+=======
+// comentario 
+>>>>>>> 456e5b62b464eabfbd68554acc1df4464bf9abeb
 int busquedaSecuencial(int datos[], int tam, int buscado){
 int enc=-1, i;
 for (i=0; i < tam && enc==-1 ; i++){
