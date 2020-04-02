@@ -1,8 +1,8 @@
 #include <stdio.h>
-// conentario fgdf
+// comentarios   
 int busquedaSecuencial(int datos[], int tam, int buscado){
 int enc=-1, i;
-for (i=0; i<tam && enc==-1 ; i++){
+for (i=0; i < tam && enc==-1 ; i++){
     if (buscado==datos[i]){
           enc = i;
     }
