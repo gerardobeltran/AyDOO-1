@@ -12,7 +12,7 @@ int main() {
   }
 valor = mat[0][0];
 enc = 1
-for (i=1; i<N enc == 1; i++)
+for (i=1; i<N && enc == 1; i++)
 {
       if (valor!= mat[i][i])
         enc = 0;
