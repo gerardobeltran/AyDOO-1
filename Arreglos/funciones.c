@@ -2,6 +2,7 @@
 #define TRUE  1
 #define FALSE 0
 
+
 // Busqueda Secuencial
 int busquedaSecuencial(int datos[], int tam, int buscado){
   int enc=-1, i;
@@ -77,7 +78,7 @@ void ordenacionRapida(int *datos, int tam) {
 
 
 
-int main(] {
+int main() {
   printf("Hola mundo!!!");
   return 0;
 }
